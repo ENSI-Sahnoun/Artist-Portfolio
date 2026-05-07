@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/catalog.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar" role="banner">
+            <div class="page-padding page-padding--nav">
+                <div class="full-container">
+                    <div class="site-nav-content">
+                        <a href="index.html" class="site-logo">
+                        <img src="images/logo-nav.png" alt="Sahnoun">
+                        </a>
+                        <div class="site-nav-wrap">
+                            <nav role="navigation" class="site-nav">
+                                <div class="site-nav-list"><a href="cv.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">CV</div>
+                                        <div class="text-xs nav-label-copy">CV</div>
+                                    </a><a href="testimonials.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">Testimonials</div>
+                                        <div class="text-xs nav-label-copy">Testimonials</div>
+                                    </a><a href="gov.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">Government Purchases</div>
+                                        <div class="text-xs nav-label-copy">Government Purchases</div>
+                                    </a><a href="exhibitions.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">Exhibitions</div>
+                                        <div class="text-xs nav-label-copy">Exhibitions</div>
+                                    </a><a href="catalog.html" aria-current="page" class="site-nav-link">
+                                        <div class="text-xs nav-label">Shop</div>
+                                        <div class="text-xs nav-label-copy">Shop</div>
+                                    </a></div>
+                                
+                            </nav>
+                        </div>
+                        <div class="site-nav-meta">
+                            <div class="text-xs">Tunisia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <section class="shop-intro">
+                <h1 class="shop-intro__title">SHOP</h1>
+                <div class="shop-intro__meta">
+                    <button class="icon-button icon-button--compact" type="button" id="cart-open">
+                        Cart <span class="cart-count" id="cart-count">0</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="category-switcher">
+                <button class="chip is-active" type="button" data-jump="wood">Wood</button>
+                <button class="chip" type="button" data-jump="marble">Marble</button>
+            </div>
+
+            <section class="category-section" id="wood">
+                <div class="category-section__header">
+                    <div>
+                        <h2 class="hero-title category-heading">Wood
+                        </h2>
+                    </div>
+                </div>
+                <div class="product-grid product-grid--three" id="wood-grid">
+                    
+                    <article class="product-card" data-product-id="wood-1">
+                        <div class="product-card__image"><img src="images/wood/wood1.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 1</h3>
+                                    <p class="product-card__category">Wood / Walnut / 120 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,400</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-1">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="wood-2">
+                        <div class="product-card__image"><img src="images/wood/wood2.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 2</h3>
+                                    <p class="product-card__category">Wood / Oak / 90 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,600</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-2">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="wood-3">
+                        <div class="product-card__image"><img src="images/wood/wood3.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 3</h3>
+                                    <p class="product-card__category">Wood / Ash / 75 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 980</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-3">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="wood-4">
+                        <div class="product-card__image"><img src="images/wood/wood4.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 4</h3>
+                                    <p class="product-card__category">Wood / Cedar / 110 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,850</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-4">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="wood-5">
+                        <div class="product-card__image"><img src="images/wood/wood5.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 5</h3>
+                                    <p class="product-card__category">Wood / Pine / 85 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-5">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="wood-6">
+                        <div class="product-card__image"><img src="images/wood/wood6.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 6</h3>
+                                    <p class="product-card__category">Wood / Teak / 140 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-6">Buy</button></div>
+                        </div>
+                    </article>
+
+                    
+                    <article class="product-card is-hidden" data-product-id="wood-7">
+                        <div class="product-card__image"><img src="images/wood/wood7.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 7</h3>
+                                    <p class="product-card__category">Wood / Maple / 115 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,100</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-7">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-8">
+                        <div class="product-card__image"><img src="images/wood/wood8.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 8</h3>
+                                    <p class="product-card__category">Wood / Birch / 100 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,750</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-8">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-9">
+                        <div class="product-card__image"><img src="images/wood/wood9.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 9</h3>
+                                    <p class="product-card__category">Wood / Cherry / 125 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,600</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-9">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-10">
+                        <div class="product-card__image"><img src="images/wood/wood10.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 10</h3>
+                                    <p class="product-card__category">Wood / Ash / 95 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,400</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-10">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-11">
+                        <div class="product-card__image"><img src="images/wood/wood11.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 11</h3>
+                                    <p class="product-card__category">Wood / Oak / 110 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,950</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-11">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-12">
+                        <div class="product-card__image"><img src="images/wood/wood12.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 12</h3>
+                                    <p class="product-card__category">Wood / Walnut / 135 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,900</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-12">Buy</button></div>
+                        </div>
+                    </article>
+
+                    
+                    <article class="product-card is-hidden" data-product-id="wood-13">
+                        <div class="product-card__image"><img src="images/wood/wood13.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 13</h3>
+                                    <p class="product-card__category">Wood / Cedar / 105 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,650</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-13">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-14">
+                        <div class="product-card__image"><img src="images/wood/wood14.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 14</h3>
+                                    <p class="product-card__category">Wood / Pine / 120 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-14">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-15">
+                        <div class="product-card__image"><img src="images/wood/wood15.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 15</h3>
+                                    <p class="product-card__category">Wood / Teak / 115 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,800</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-15">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-16">
+                        <div class="product-card__image"><img src="images/wood/wood16.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 16</h3>
+                                    <p class="product-card__category">Wood / Maple / 130 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,450</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-16">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-17">
+                        <div class="product-card__image"><img src="images/wood/wood17.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 17</h3>
+                                    <p class="product-card__category">Wood / Birch / 95 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,550</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-17">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-18">
+                        <div class="product-card__image"><img src="images/wood/wood18.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 18</h3>
+                                    <p class="product-card__category">Wood / Cherry / 140 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,100</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-18">Buy</button></div>
+                        </div>
+                    </article>
+
+                    
+                    <article class="product-card is-hidden" data-product-id="wood-19">
+                        <div class="product-card__image"><img src="images/wood/wood19.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 19</h3>
+                                    <p class="product-card__category">Wood / Mahogany / 120 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,700</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-19">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="wood-20">
+                        <div class="product-card__image"><img src="images/wood/wood20.jpg" alt="Wood work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Wood Work 20</h3>
+                                    <p class="product-card__category">Wood / Ash / 110 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,800</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="wood-20">Buy</button></div>
+                        </div>
+                    </article>
+                </div>
+                <div class="load-more-container">
+                    <button id="load-more-wood" class="reveal-button">Show More</button>
+                </div>
+            </section>
+
+            <div class="section-divider">
+                <div class="section-divider__line"></div>
+            </div>
+
+            <section class="category-section" id="marble">
+                <div class="category-section__header">
+                    <div>
+                        <h2 class="hero-title category-heading">
+                            Marble</h2>
+                    </div>
+                </div>
+                <div class="product-grid product-grid--three" id="marble-grid">
+                    
+                    <article class="product-card" data-product-id="marble-1">
+                        <div class="product-card__image"><img src="images/marble/marble1.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 1</h3>
+                                    <p class="product-card__category">Marble / 120 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,800</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-1">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="marble-2">
+                        <div class="product-card__image"><img src="images/marble/marble2.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 2</h3>
+                                    <p class="product-card__category">Marble / 95 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,100</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-2">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="marble-3">
+                        <div class="product-card__image"><img src="images/marble/marble3.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 3</h3>
+                                    <p class="product-card__category">Marble / 110 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,900</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-3">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="marble-4">
+                        <div class="product-card__image"><img src="images/marble/marble4.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 4</h3>
+                                    <p class="product-card__category">Marble / 130 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 4,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-4">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="marble-5">
+                        <div class="product-card__image"><img src="images/marble/marble5.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 5</h3>
+                                    <p class="product-card__category">Marble / 80 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 1,800</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-5">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="marble-6">
+                        <div class="product-card__image"><img src="images/marble/marble6.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 6</h3>
+                                    <p class="product-card__category">Marble / 150 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 5,400</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-6">Buy</button></div>
+                        </div>
+                    </article>
+
+                    
+                    <article class="product-card is-hidden" data-product-id="marble-7">
+                        <div class="product-card__image"><img src="images/marble/marble7.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 7</h3>
+                                    <p class="product-card__category">Marble / 115 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,500</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-7">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-8">
+                        <div class="product-card__image"><img src="images/marble/marble8.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 8</h3>
+                                    <p class="product-card__category">Marble / 100 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-8">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-9">
+                        <div class="product-card__image"><img src="images/marble/marble9.jpg" alt="Marble work" /></div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 9</h3>
+                                    <p class="product-card__category">Marble / 125 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,800</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-9">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-10">
+                        <div class="product-card__image"><img src="images/marble/marble10.jpg" alt="Marble work" />
+                        </div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 10</h3>
+                                    <p class="product-card__category">Marble / 145 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 4,600</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-10">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-11">
+                        <div class="product-card__image"><img src="images/marble/marble11.jpg" alt="Marble work" />
+                        </div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 11</h3>
+                                    <p class="product-card__category">Marble / 90 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 2,600</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-11">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-12">
+                        <div class="product-card__image"><img src="images/marble/marble12.jpg" alt="Marble work" />
+                        </div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 12</h3>
+                                    <p class="product-card__category">Marble / 110 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,000</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-12">Buy</button></div>
+                        </div>
+                    </article>
+
+                    
+                    <article class="product-card is-hidden" data-product-id="marble-13">
+                        <div class="product-card__image"><img src="images/marble/marble13.jpg" alt="Marble work" />
+                        </div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 13</h3>
+                                    <p class="product-card__category">Marble / 135 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 3,900</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-13">Buy</button></div>
+                        </div>
+                    </article>
+                    <article class="product-card is-hidden" data-product-id="marble-14">
+                        <div class="product-card__image"><img src="images/marble/marble14.jpg" alt="Marble work" />
+                        </div>
+                        <div class="product-card__body">
+                            <div class="product-card__meta">
+                                <div>
+                                    <h3 class="product-card__name">Marble Work 14</h3>
+                                    <p class="product-card__category">Marble / 160 cm</p>
+                                </div>
+                                <div class="product-card__price">TND 6,200</div>
+                            </div>
+                            <div class="product-card__footer"><span class="product-card__note">Click for
+                                    details</span><button class="small-button buy-button"
+                                    data-buy-id="marble-14">Buy</button></div>
+                        </div>
+                    </article>
+                </div>
+                <div class="load-more-container">
+                    <button id="load-more-marble" class="reveal-button">Show More</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="shop-footer">
+            <div class="shop-footer__container">
+                <div class="shop-footer__grid">
+                    <div class="shop-footer__col">
+                        <div class="shop-footer__col-title">Connect</div>
+                        <div class="shop-footer__links-list">
+                            <a href="https://instagram.com" target="_blank" class="shop-footer__link">Instagram</a>
+                            <a href="https://facebook.com" target="_blank" class="shop-footer__link">Facebook</a>
+                            <a href="https://linkedin.com" target="_blank" class="shop-footer__link">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="shop-footer__brand">
+                        <h3>Mohamed Sahnoun</h3>
+                        <p>Artisanal sculptures and visual art pieces, handcrafted in Tunisia. Merging calligraphic
+                            heritage with modern form.</p>
+                    </div>
+                    <div class="shop-footer__col footer-col--right">
+                        <div class="shop-footer__col-title">Contact</div>
+                        <div class="shop-footer__links-list footer-links--right">
+                            <a href="mailto:sahnounmohamed2009@gmail.com" class="shop-footer__link">Email</a>
+                            <span class="shop-footer__link">+216 52 618 161</span>
+                            <span class="shop-footer__link">Sfax, Tunisia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal" id="product-modal" aria-hidden="true">
+        <div class="modal__backdrop" data-close-modal></div>
+        <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="product-modal__title">
+            <button class="modal__close" type="button" data-close-modal>Close</button>
+            <div class="modal__grid">
+                <div class="modal__image">
+                    <img id="product-modal__image" alt="" src="" />
+                </div>
+                <div>
+                    <p class="modal__eyebrow" id="product-modal-category">Product</p>
+                    <h2 class="modal__title" id="product-modal__title">Title</h2>
+                    <p class="modal__price" id="product-modal__price">TND 0</p>
+                    <p class="modal__description" id="product-modal__description"></p>
+                    <p class="modal__spec" id="product-modal__spec"></p>
+                    <div class="modal__actions">
+                        <button class="button-primary" type="button" id="product-buy-button">Buy Now</button>
+                        <button class="small-button" type="button" data-close-modal>Keep Browsing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--cart" id="cart-modal" aria-hidden="true">
+        <div class="modal__backdrop" data-close-cart></div>
+        <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="cart-modal__title">
+            <button class="modal__close" type="button" data-close-cart>Close</button>
+            <p class="modal__eyebrow">Cart</p>
+            <h2 class="modal__title" id="cart-modal__title">Your Selection</h2>
+            <div id="cart-items" class="cart-list"></div>
+            <div class="cart-summary">
+                <div class="cart-summary__row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">TND 0</span>
+                </div>
+                <div class="cart-summary__row">
+                    <span>Shipping</span>
+                    <span>Calculated at inquiry</span>
+                </div>
+                <div class="cart-summary__row cart-summary__total">
+                    <span>Total</span>
+                    <span id="cart-total">TND 0</span>
+                </div>
+            </div>
+            <div class="modal__actions">
+                <button class="button-primary" type="button" id="cart-purchase-button">Purchase</button>
+                <button class="small-button" type="button" data-close-cart>Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--checkout" id="checkout-modal" aria-hidden="true">
+        <div class="modal__backdrop" data-close-checkout></div>
+        <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="checkout-modal__title">
+            <button class="modal__close" type="button" data-close-checkout>Close</button>
+            <p class="modal__eyebrow">Checkout</p>
+            <h2 class="modal__title checkout-title" id="checkout-modal__title">Finalize your purchase</h2>
+            <p class="checkout-copy">Share your information and preferred delivery details. The studio will follow up to confirm availability, shipping, and payment details.</p>
+            <form class="checkout-form" action="buying_process.php" method="post" id="purchase-form">
+                <input type="hidden" name="cart_data" id="cart-data-input">
+                <div class="checkout-form__grid">
+                    <label class="field-group">
+                        <span class="field-label">Full name</span>
+                        <input class="field-input" type="text" name="name" autocomplete="name" required />
+                    </label>
+                    <label class="field-group">
+                        <span class="field-label">Email</span>
+                        <input class="field-input" type="email" name="email" autocomplete="email" required />
+                    </label>
+                    <label class="field-group">
+                        <span class="field-label">Phone</span>
+                        <input class="field-input" type="tel" name="phone" autocomplete="tel" required />
+                    </label>
+                    <label class="field-group">
+                        <span class="field-label">City / Country</span>
+                        <input class="field-input" type="text" name="location" autocomplete="address-level2" required />
+                    </label>
+                    <label class="field-group field-group--full">
+                        <span class="field-label">Delivery address</span>
+                        <input class="field-input" type="text" name="address" autocomplete="street-address" required />
+                    </label>
+                    <label class="field-group field-group--full">
+                        <span class="field-label">Notes</span>
+                        <textarea class="field-input field-input--textarea" name="notes" rows="4" placeholder="Preferred shipping method, installation needs, framing, invoice details..."></textarea>
+                    </label>
+                </div>
+                <div class="checkout-summary">
+                    <div>
+                        <p class="checkout-summary__label">Order total</p>
+                        <p class="checkout-summary__value" id="checkout-total">TND 0</p>
+                    </div>
+                    <p class="checkout-summary__note">Shipping and handling stay confirmed manually after inquiry.</p>
+                </div>
+                <div class="modal__actions">
+                    <button class="button-primary" type="submit">Send Purchase Request</button>
+                    <button class="small-button" type="button" data-close-checkout>Back to Cart</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const products = {
+            'wood-1': { name: 'Wood Work 1', category: 'Wood / Walnut / 120 cm', price: 2400, image: 'images/wood/wood1.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-2': { name: 'Wood Work 2', category: 'Wood / Oak / 90 cm', price: 1600, image: 'images/wood/wood2.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-3': { name: 'Wood Work 3', category: 'Wood / Ash / 75 cm', price: 980, image: 'images/wood/wood3.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-4': { name: 'Wood Work 4', category: 'Wood / Cedar / 110 cm', price: 1850, image: 'images/wood/wood4.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-5': { name: 'Wood Work 5', category: 'Wood / Pine / 85 cm', price: 1200, image: 'images/wood/wood5.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-6': { name: 'Wood Work 6', category: 'Wood / Teak / 140 cm', price: 3200, image: 'images/wood/wood6.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-7': { name: 'Wood Work 7', category: 'Wood / Maple / 115 cm', price: 2100, image: 'images/wood/wood7.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-8': { name: 'Wood Work 8', category: 'Wood / Birch / 100 cm', price: 1750, image: 'images/wood/wood8.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-9': { name: 'Wood Work 9', category: 'Wood / Cherry / 125 cm', price: 2600, image: 'images/wood/wood9.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-10': { name: 'Wood Work 10', category: 'Wood / Ash / 95 cm', price: 1400, image: 'images/wood/wood10.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-11': { name: 'Wood Work 11', category: 'Wood / Oak / 110 cm', price: 1950, image: 'images/wood/wood11.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-12': { name: 'Wood Work 12', category: 'Wood / Walnut / 135 cm', price: 2900, image: 'images/wood/wood12.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-13': { name: 'Wood Work 13', category: 'Wood / Cedar / 105 cm', price: 1650, image: 'images/wood/wood13.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-14': { name: 'Wood Work 14', category: 'Wood / Pine / 120 cm', price: 2200, image: 'images/wood/wood14.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-15': { name: 'Wood Work 15', category: 'Wood / Teak / 115 cm', price: 2800, image: 'images/wood/wood15.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-16': { name: 'Wood Work 16', category: 'Wood / Maple / 130 cm', price: 2450, image: 'images/wood/wood16.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-17': { name: 'Wood Work 17', category: 'Wood / Birch / 95 cm', price: 1550, image: 'images/wood/wood17.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-18': { name: 'Wood Work 18', category: 'Wood / Cherry / 140 cm', price: 3100, image: 'images/wood/wood18.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-19': { name: 'Wood Work 19', category: 'Wood / Mahogany / 120 cm', price: 2700, image: 'images/wood/wood19.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'wood-20': { name: 'Wood Work 20', category: 'Wood / Ash / 110 cm', price: 1800, image: 'images/wood/wood20.jpg', description: 'Available work from the Wood collection.', spec: 'Solid wood, handcrafted finish.' },
+            'marble-1': { name: 'Marble Work 1', category: 'Marble / 120 cm', price: 2800, image: 'images/marble/marble1.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-2': { name: 'Marble Work 2', category: 'Marble / 95 cm', price: 3100, image: 'images/marble/marble2.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-3': { name: 'Marble Work 3', category: 'Marble / 110 cm', price: 2900, image: 'images/marble/marble3.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-4': { name: 'Marble Work 4', category: 'Marble / 130 cm', price: 4200, image: 'images/marble/marble4.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-5': { name: 'Marble Work 5', category: 'Marble / 80 cm', price: 1800, image: 'images/marble/marble5.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-6': { name: 'Marble Work 6', category: 'Marble / 150 cm', price: 5400, image: 'images/marble/marble6.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-7': { name: 'Marble Work 7', category: 'Marble / 115 cm', price: 3500, image: 'images/marble/marble7.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-8': { name: 'Marble Work 8', category: 'Marble / 100 cm', price: 3200, image: 'images/marble/marble8.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-9': { name: 'Marble Work 9', category: 'Marble / 125 cm', price: 3800, image: 'images/marble/marble9.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-10': { name: 'Marble Work 10', category: 'Marble / 145 cm', price: 4600, image: 'images/marble/marble10.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-11': { name: 'Marble Work 11', category: 'Marble / 90 cm', price: 2600, image: 'images/marble/marble11.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-12': { name: 'Marble Work 12', category: 'Marble / 110 cm', price: 3000, image: 'images/marble/marble12.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-13': { name: 'Marble Work 13', category: 'Marble / 135 cm', price: 3900, image: 'images/marble/marble13.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' },
+            'marble-14': { name: 'Marble Work 14', category: 'Marble / 160 cm', price: 6200, image: 'images/marble/marble14.jpg', description: 'Available work from the Marble collection.', spec: 'Solid marble, museum-grade finish.' }
+        };
+
+        const cart = [];
+        const productModal = document.getElementById('product-modal');
+        const cartModal = document.getElementById('cart-modal');
+        const checkoutModal = document.getElementById('checkout-modal');
+        const cartItems = document.getElementById('cart-items');
+        const cartSubtotal = document.getElementById('cart-subtotal');
+        const cartTotal = document.getElementById('cart-total');
+        const cartCount = document.getElementById('cart-count');
+        const checkoutTotal = document.getElementById('checkout-total');
+        const cartPurchaseButton = document.getElementById('cart-purchase-button');
+        const productModalTitle = document.getElementById('product-modal__title');
+        const productModalCategory = document.getElementById('product-modal-category');
+        const productModalPrice = document.getElementById('product-modal__price');
+        const productModalDescription = document.getElementById('product-modal__description');
+        const productModalSpec = document.getElementById('product-modal__spec');
+        const productModalImage = document.getElementById('product-modal__image');
+        const productBuyButton = document.getElementById('product-buy-button');
+        let activeProductId = null;
+
+        const formatPrice = (value) => `TND ${value.toLocaleString('en-IE')}`;
+
+        const updateCart = () => {
+            cartCount.textContent = cart.length;
+            if (cart.length === 0) {
+                cartItems.innerHTML = '<div class="empty-state">No pieces in the cart yet. Choose a work from Wood or Marble.</div>';
+                cartSubtotal.textContent = 'TND 0';
+                cartTotal.textContent = 'TND 0';
+                return;
+            }
+
+            const subtotal = cart.reduce((sum, item) => sum + item.price, 0);
+            cartItems.innerHTML = cart.map((item, index) => `
+                <div class="cart-item">
+                    <div class="cart-item__thumb"><img src="${item.image}" alt="${item.name}"></div>
+                    <div>
+                        <p class="cart-item__name">${item.name}</p>
+                        <p class="cart-item__meta">${item.category}</p>
+                    </div>
+                    <div class="cart-item__actions">
+                        <div class="cart-item__price">${formatPrice(item.price)}</div>
+                        <button class="small-button remove-button" type="button" data-remove-index="${index}">Remove</button>
+                    </div>
+                </div>
+            `).join('');
+            cartSubtotal.textContent = formatPrice(subtotal);
+            cartTotal.textContent = formatPrice(subtotal);
+            checkoutTotal.textContent = formatPrice(subtotal);
+        };
+
+        if (cartPurchaseButton) {
+            cartPurchaseButton.addEventListener('click', () => {
+                if (cart.length === 0) return;
+                closeModal(cartModal);
+                openModal(checkoutModal);
+            });
+        }
+
+        const purchaseForm = document.getElementById('purchase-form');
+        if (purchaseForm) {
+            purchaseForm.addEventListener('submit', () => {
+                purchaseForm.action = 'buying_process.php';
+                purchaseForm.method = 'post';
+                const cartDataInput = document.getElementById('cart-data-input');
+                if (cartDataInput) {
+                    cartDataInput.value = cart.map(item => item.name).join(', ');
+                }
+            });
+        }
+
+        const modalAnimationTimers = new WeakMap();
+        const revealDurations = {
+            backdrop: 400,
+            panel: 500,
+            close: 300,
+            card: 800
+        };
+
+        const clearModalAnimation = (modal) => {
+            const timer = modalAnimationTimers.get(modal);
+            if (timer) {
+                window.clearTimeout(timer);
+                modalAnimationTimers.delete(modal);
+            }
+        };
+
+        const resetModalStyles = (backdrop, panel) => {
+            backdrop.style.transition = '';
+            backdrop.style.opacity = '';
+            panel.style.transition = '';
+            panel.style.opacity = '';
+            panel.style.transform = '';
+        };
+
+        const openModal = (modal) => {
+            clearModalAnimation(modal);
+            modal.classList.add('is-open');
+
+            const backdrop = modal.querySelector('.modal__backdrop');
+            const panel = modal.querySelector('.modal__panel');
+
+            backdrop.style.transition = 'none';
+            panel.style.transition = 'none';
+            backdrop.style.opacity = '0';
+            panel.style.opacity = '0';
+            panel.style.transform = 'translateY(40px) scale(0.98)';
+
+            requestAnimationFrame(() => {
+                backdrop.style.transition = `opacity ${revealDurations.backdrop}ms ease`;
+                panel.style.transition = `opacity ${revealDurations.panel}ms ease, transform ${revealDurations.panel}ms cubic-bezier(0.22, 1, 0.36, 1)`;
+                backdrop.style.opacity = '1';
+                panel.style.opacity = '1';
+                panel.style.transform = 'translateY(0) scale(1)';
+            });
+        };
+
+        const closeModal = (modal) => {
+            if (!modal.classList.contains('is-open')) return;
+
+            clearModalAnimation(modal);
+
+            const backdrop = modal.querySelector('.modal__backdrop');
+            const panel = modal.querySelector('.modal__panel');
+
+            backdrop.style.transition = `opacity ${revealDurations.close}ms ease`;
+            panel.style.transition = `opacity ${revealDurations.close}ms ease, transform ${revealDurations.close}ms ease`;
+            backdrop.style.opacity = '0';
+            panel.style.opacity = '0';
+            panel.style.transform = 'translateY(30px) scale(0.98)';
+
+            const timer = window.setTimeout(() => {
+                modal.classList.remove('is-open');
+                resetModalStyles(backdrop, panel);
+                modalAnimationTimers.delete(modal);
+            }, revealDurations.close);
+
+            modalAnimationTimers.set(modal, timer);
+        };
+
+        const openProductModal = (productId) => {
+            const product = products[productId];
+            if (!product) return;
+            activeProductId = productId;
+            productModalTitle.textContent = product.name;
+            productModalCategory.textContent = product.category;
+            productModalPrice.textContent = formatPrice(product.price);
+            productModalDescription.textContent = product.description;
+            productModalSpec.textContent = product.spec;
+            productModalImage.src = product.image;
+            productModalImage.alt = product.name;
+            openModal(productModal);
+        };
+
+        const addToCart = (productId) => {
+            const product = products[productId];
+            if (!product) return;
+            cart.push(product);
+            updateCart();
+        };
+
+        document.addEventListener('click', (event) => {
+            const jump = event.target.closest('[data-jump]');
+            if (jump) {
+                document.getElementById(jump.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                return;
+            }
+
+            const closeProduct = event.target.closest('[data-close-modal]');
+            if (closeProduct) {
+                closeModal(productModal);
+                return;
+            }
+
+            const closeCart = event.target.closest('[data-close-cart]');
+            if (closeCart) {
+                closeModal(cartModal);
+                return;
+            }
+
+            const closeCheckout = event.target.closest('[data-close-checkout]');
+            if (closeCheckout) {
+                closeModal(checkoutModal);
+                return;
+            }
+
+            const buy = event.target.closest('[data-buy-id]');
+            if (buy) {
+                event.stopPropagation();
+                addToCart(buy.dataset.buyId);
+                openModal(cartModal);
+                return;
+            }
+
+            if (event.target.classList.contains('modal__backdrop')) {
+                closeModal(productModal);
+                closeModal(cartModal);
+                closeModal(checkoutModal);
+                return;
+            }
+
+            const removeBtn = event.target.closest('[data-remove-index]');
+            if (removeBtn) {
+                event.stopPropagation();
+                const idx = Number(removeBtn.dataset.removeIndex);
+                if (!Number.isNaN(idx) && idx >= 0 && idx < cart.length) {
+                    cart.splice(idx, 1);
+                    updateCart();
+                }
+                return;
+            }
+
+            const card = event.target.closest('[data-product-id]');
+            if (card && !event.target.closest('.buy-button')) {
+                openProductModal(card.dataset.productId);
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            const card = document.activeElement?.closest?.('[data-product-id]');
+            if (card && !document.activeElement.classList.contains('buy-button')) {
+                event.preventDefault();
+                openProductModal(card.dataset.productId);
+            }
+        });
+
+        document.getElementById('cart-open').addEventListener('click', () => {
+            updateCart();
+            openModal(cartModal);
+        });
+
+        const setupLoadMore = (btnId, gridId) => {
+            const btn = document.getElementById(btnId);
+            if (!btn) return;
+
+            let currentBatch = 1;
+            const batchSize = 6;
+            const grid = document.getElementById(gridId);
+            const hiddenCards = Array.from(grid.querySelectorAll('.product-card.is-hidden'));
+
+            btn.addEventListener('click', () => {
+                const start = (currentBatch - 1) * batchSize;
+                const end = start + batchSize;
+                const toShow = hiddenCards.slice(start, end);
+
+                if (toShow.length) {
+                    toShow.forEach((card, index) => {
+                        card.classList.remove('is-hidden');
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(30px)';
+                        card.style.transition = 'none';
+
+                        requestAnimationFrame(() => {
+                            window.setTimeout(() => {
+                                card.style.transition = `opacity ${revealDurations.card}ms ease, transform ${revealDurations.card}ms ease`;
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+
+                                window.setTimeout(() => {
+                                    card.style.transition = '';
+                                    card.style.opacity = '';
+                                    card.style.transform = '';
+                                }, revealDurations.card);
+                            }, index * 100);
+                        });
+                    });
+                }
+
+                currentBatch++;
+                if (currentBatch * batchSize >= hiddenCards.length + batchSize) {
+                    btn.parentElement.style.display = 'none';
+                }
+            });
+        };
+
+        setupLoadMore('load-more-marble', 'marble-grid');
+        setupLoadMore('load-more-wood', 'wood-grid');
+
+        productBuyButton.addEventListener('click', () => {
+            if (!activeProductId) return;
+            addToCart(activeProductId);
+            closeModal(productModal);
+            openModal(cartModal);
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closeModal(productModal);
+                closeModal(cartModal);
+                closeModal(checkoutModal);
+            }
+        });
+
+        updateCart();
+    </script>
+</body>
+
+</html>

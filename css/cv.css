@@ -1,0 +1,287 @@
+/* Youssef Sahnoun & Ameur Masmoudi ii1A */
+
+
+
+.cv-page {
+  background-color: #100f0d;
+}
+
+.cv-content-top {
+  position: relative;
+  background-color: #100f0d; 
+  overflow: hidden;
+  padding-top: 8rem;
+}
+
+.cv-hero {
+  padding-bottom: 0rem;
+  border-bottom: 1px solid rgba(212, 154, 106, 0.15);
+  position: relative;
+}
+
+.hero-photo {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 4/5;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  border: none;
+  position: relative;
+  background: #100f0d;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: bottom center;
+  transition: transform 0.8s ease;
+}
+
+.profile-grid {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.profile-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+  filter: blur(5px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.cv-content-top > * {
+  position: relative;
+  z-index: 1;
+}
+
+.cv-content-top::before {
+  display: none;
+}
+
+.cv-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-photo {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 4/5;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  border: none;
+  position: relative;
+  background: #100f0d;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.8s ease;
+}
+
+.hero-photo:hover img {
+  transform: scale(1.05);
+}
+
+.hero-copy h1 {
+  font-size: clamp(4rem, 8vw, 7rem);
+  line-height: 0.9;
+  margin-bottom: 2rem;
+  color: #f0ece6;
+  text-transform: uppercase;
+}
+
+.hero-copy .lead {
+  font-size: 1.25rem;
+  color: #d49a6a;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero-copy .since {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #9e9890;
+  max-width: 50ch;
+}
+
+
+.profile-grid {
+  padding: 6rem 0;
+}
+
+.cv-grid-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.card {
+  background: rgba(30, 26, 20, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 154, 106, 0.15);
+  padding: 3rem;
+  border-radius: 0.5rem;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  border-color: rgba(212, 154, 106, 0.4);
+  background: rgba(30, 26, 20, 0.6);
+}
+
+.card h2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #d49a6a;
+  margin-bottom: 2rem;
+}
+
+.bio ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.bio li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0ece6;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.bio li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  background: #d49a6a;
+  border-radius: 50%;
+}
+
+.contact dl {
+  display: grid;
+  gap: 2rem;
+}
+
+.contact dt {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9e9890;
+  margin-bottom: 0.5rem;
+}
+
+.contact dd {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact a {
+  color: #f0ece6;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #d49a6a;
+}
+
+
+.timeline {
+  padding: 6rem 0 10rem;
+  border-top: 1px solid rgba(212, 154, 106, 0.15);
+}
+
+.timeline-head {
+  margin-bottom: 4rem;
+}
+
+.timeline-head h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-head p {
+  color: #9e9890;
+  font-size: 1.1rem;
+}
+
+.timeline-layout {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 4rem;
+}
+
+.timeline-content {
+  border-right: 1px solid rgba(212, 154, 106, 0.15);
+  padding-right: 4rem;
+}
+
+.year-rail {
+  position: relative;
+}
+
+#stickyYear {
+  position: sticky;
+  top: 50vh;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #d49a6a;
+  opacity: 0.7;
+  display: block;
+  transform: translateY(-50%);
+  transition: opacity 0.15s ease, transform 0.15s ease-out;
+}
+
+#stickyYear.is-switching {
+  opacity: 0.4;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.year-section {
+  padding: 4rem 0;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+.year-section.active {
+  opacity: 1;
+}
+
+.event {
+  margin-bottom: 1.5rem;
+}
+
+.event p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: right;
+  direction: rtl;
+}
+
+
+
