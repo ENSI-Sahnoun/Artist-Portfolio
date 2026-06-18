@@ -2,6 +2,8 @@
 
 Site portfolio et galerie en ligne pour Mohamed Sahnoun, sculpteur et artiste visuel tunisien. Le projet présente sa biographie, son parcours artistique, ses expositions, sa reconnaissance médiatique, ses acquisitions institutionnelles et un catalogue de sculptures en bois et en marbre.
 
+# Live site : https://sahnounmohamed.up.railway.app/
+
 ## Aperçu
 
 Ce projet est principalement un site HTML/CSS statique avec du JavaScript léger pour quelques interactions et PHP pour la gestion de la base de données. Chaque page possède sa propre structure, tout en partageant une navigation, un pied de page et une identité visuelle commune.
