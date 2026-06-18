@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/notify.php';
 
 if (($_SERVER["REQUEST_METHOD"] ?? "") !== "POST") {
     header("Location: testimonials.php");
@@ -60,6 +61,17 @@ try {
         ":visitation"   => $visitation,
         ":medium"       => $medium,
     ]);
+    send_notification(
+        'New Testimonial — ' . $name,
+        "<h2>New Testimonial Submitted</h2>
+        <p><strong>Name:</strong> $name</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Rating:</strong> $rating / 5</p>
+        <p><strong>Review:</strong> $review</p>
+        <p><strong>Location:</strong> $location</p>
+        <p><strong>Artwork Type:</strong> $artworkType</p>
+        <p><strong>Medium:</strong> $medium</p>"
+    );
     header("Location: testimonials.php?success=1");
     exit();
 } catch (PDOException $e) {

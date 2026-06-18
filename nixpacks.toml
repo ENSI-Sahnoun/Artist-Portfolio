@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["php", "phpPackages.composer"]
+nixPkgs = ["php", "phpPackages.composer", "curl"]
 
 [phases.install]
 cmds = ["composer install --no-dev --no-interaction 2>/dev/null || true"]

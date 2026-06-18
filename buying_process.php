@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/notify.php';
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     header("Location: catalog.php");
@@ -59,6 +60,17 @@ try {
         ':cart'     => $cart,
         ':notes'    => $notes,
     ]);
+    send_notification(
+        'New Purchase Request — ' . $name,
+        "<h2>New Purchase Request</h2>
+        <p><strong>Name:</strong> $name</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Phone:</strong> $phone</p>
+        <p><strong>Location:</strong> $location</p>
+        <p><strong>Address:</strong> $address</p>
+        <p><strong>Cart:</strong> $cart</p>
+        <p><strong>Notes:</strong> $notes</p>"
+    );
     header("Location: thank-you.html");
     exit();
 } catch (PDOException $e) {
