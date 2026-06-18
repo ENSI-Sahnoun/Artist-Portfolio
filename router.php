@@ -20,5 +20,5 @@ if (is_file($file)) {
     require $file . '/index.html';
 } else {
     http_response_code(404);
-    echo '404 Not Found';
+    require __DIR__ . '/404.php';
 }

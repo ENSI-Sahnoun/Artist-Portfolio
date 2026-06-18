@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | Mohamed Sahnoun</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/catalog.css" rel="stylesheet" type="text/css" />
+    <style>
+        .page > .navbar {
+            position: relative;
+        }
+
+        .thank-you-shell {
+            min-height: calc(100vh - 88px);
+            width: min(100%, 1240px);
+            margin: 0 auto;
+            padding: 56px 24px 96px;
+            display: grid;
+            place-items: center;
+        }
+
+        .thank-you-card {
+            width: min(100%, 760px);
+            border: 1px solid rgba(77, 69, 60, 0.22);
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent), #1c1c1a;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+            padding: 40px;
+        }
+
+        .thank-you-eyebrow {
+            margin: 0 0 12px;
+            color: #f1d4b0;
+            text-transform: uppercase;
+            letter-spacing: 0.28em;
+            font-size: 0.72rem;
+        }
+
+        .thank-you-title {
+            margin: 0 0 18px;
+            font-size: clamp(2.4rem, 6vw, 5rem);
+            line-height: 0.94;
+            color: #e5dec9;
+        }
+
+        .thank-you-copy {
+            margin: 0 0 16px;
+            max-width: 38rem;
+            color: rgba(229, 222, 201, 0.78);
+            line-height: 1.7;
+        }
+
+        .thank-you-note {
+            margin: 28px 0 0;
+            padding-top: 22px;
+            border-top: 1px solid rgba(77, 69, 60, 0.22);
+            color: rgba(229, 222, 201, 0.62);
+            font-size: 0.82rem;
+            line-height: 1.7;
+        }
+
+        .thank-you-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 28px;
+        }
+
+        @media (max-width: 767px) {
+            .thank-you-card {
+                padding: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar" role="banner">
+            <div class="page-padding page-padding--nav">
+                <div class="full-container">
+                    <div class="site-nav-content">
+                        <a href="index.html" class="site-logo">
+                            <img src="images/logo-nav.png" alt="Sahnoun">
+                        </a>
+                        <div class="site-nav-wrap">
+                            <nav role="navigation" class="site-nav">
+                                <div class="site-nav-list"><a href="cv.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">CV</div>
+                                        <div class="text-xs nav-label-copy">CV</div>
+                                    </a><a href="testimonials.php" class="site-nav-link">
+                                        <div class="text-xs nav-label">Testimonials</div>
+                                        <div class="text-xs nav-label-copy">Testimonials</div>
+                                    </a><a href="gov.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">Government Purchases</div>
+                                        <div class="text-xs nav-label-copy">Government Purchases</div>
+                                    </a><a href="exhibitions.html" class="site-nav-link">
+                                        <div class="text-xs nav-label">Exhibitions</div>
+                                        <div class="text-xs nav-label-copy">Exhibitions</div>
+                                    </a><a href="catalog.php" class="site-nav-link">
+                                        <div class="text-xs nav-label">Shop</div>
+                                        <div class="text-xs nav-label-copy">Shop</div>
+                                    </a></div>
+                            </nav>
+                        </div>
+                        <div class="site-nav-meta">
+                            <div class="text-xs">Tunisia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="thank-you-shell">
+            <section class="thank-you-card">
+                <p class="thank-you-eyebrow">404 — Page Not Found</p>
+                <h1 class="thank-you-title">Nothing here.</h1>
+                <p class="thank-you-copy">The page you're looking for doesn't exist or has been moved.</p>
+                <div class="thank-you-actions">
+                    <a class="button-primary" href="index.html">Return Home</a>
+                    <a class="small-button" href="catalog.php">Visit the Shop</a>
+                </div>
+                <p class="thank-you-note">Mohamed Sahnoun - 2026</p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
