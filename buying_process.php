@@ -61,6 +61,29 @@ try {
         ':notes'    => $notes,
     ]);
     $e = fn($s) => htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8');
+
+    // Build cart HTML with images
+    $base_url   = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+    $cart_items = json_decode($cart, true);
+    $cart_html  = '';
+    if (is_array($cart_items)) {
+        foreach ($cart_items as $item) {
+            $img   = $e($base_url . '/' . ltrim($item['image'] ?? '', '/'));
+            $iname = $e($item['name'] ?? '');
+            $price = $e($item['price'] ?? '');
+            $cart_html .= "
+            <div style='display:flex;align-items:center;gap:12px;margin-bottom:12px;'>
+                <img src='{$img}' alt='{$iname}' style='width:80px;height:80px;object-fit:cover;border-radius:6px;'>
+                <div>
+                    <strong>{$iname}</strong><br>
+                    <span>TND {$price}</span>
+                </div>
+            </div>";
+        }
+    } else {
+        $cart_html = $e($cart);
+    }
+
     send_notification(
         'New Purchase Request — ' . $e($name),
         "<h2>New Purchase Request</h2>
@@ -69,8 +92,8 @@ try {
         <p><strong>Phone:</strong> {$e($phone)}</p>
         <p><strong>Location:</strong> {$e($location)}</p>
         <p><strong>Address:</strong> {$e($address)}</p>
-        <p><strong>Cart:</strong> {$e($cart)}</p>
-        <p><strong>Notes:</strong> {$e($notes)}</p>"
+        <p><strong>Notes:</strong> {$e($notes)}</p>
+        <h3>Cart</h3>{$cart_html}"
     );
     header("Location: thank-you.html");
     exit();

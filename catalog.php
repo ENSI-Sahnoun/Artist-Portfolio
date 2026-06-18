@@ -857,7 +857,7 @@
                 purchaseForm.method = 'post';
                 const cartDataInput = document.getElementById('cart-data-input');
                 if (cartDataInput) {
-                    cartDataInput.value = cart.map(item => item.name).join(', ');
+                    cartDataInput.value = JSON.stringify(cart.map(item => ({ name: item.name, image: item.image, price: item.price })));
                 }
             });
         }
