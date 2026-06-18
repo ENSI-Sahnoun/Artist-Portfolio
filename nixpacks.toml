@@ -1,5 +1,8 @@
 [phases.setup]
-nixPkgs = ["php83", "php83Extensions.pdo_mysql", "php83Extensions.mbstring", "php83Extensions.pdo"]
+nixPkgs = ["php", "phpPackages.composer"]
+
+[phases.install]
+cmds = ["composer install --no-dev --no-interaction 2>/dev/null || true"]
 
 [start]
 cmd = "php -S 0.0.0.0:${PORT:-8080} -t . router.php"
