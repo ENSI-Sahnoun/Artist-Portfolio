@@ -2,20 +2,23 @@
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $file = __DIR__ . $path;
 
+if ($path === '/' || $path === '') {
+    require __DIR__ . '/index.html';
+    exit();
+}
+
 if (is_file($file)) {
-    if (pathinfo($file, PATHINFO_EXTENSION) === 'php') {
+    $ext = pathinfo($file, PATHINFO_EXTENSION);
+    if ($ext === 'php') {
         require $file;
     } else {
-        return false; // serve static file as-is
+        return false; // let built-in server serve static file
     }
+} elseif (is_file($file . '.php')) {
+    require $file . '.php';
+} elseif (is_file($file . '/index.html')) {
+    require $file . '/index.html';
 } else {
-    // try with .php extension
-    if (is_file($file . '.php')) {
-        require $file . '.php';
-    } elseif (is_file($file . '/index.php')) {
-        require $file . '/index.php';
-    } else {
-        http_response_code(404);
-        echo '404 Not Found';
-    }
+    http_response_code(404);
+    echo '404 Not Found';
 }
