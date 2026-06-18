@@ -1,4 +1,9 @@
 <?php
+if (basename($_SERVER['SCRIPT_FILENAME']) === 'notify.php') {
+    http_response_code(403);
+    exit();
+}
+
 function send_notification(string $subject, string $body): void {
     $api_key = getenv('RESEND_API_KEY');
     $to      = getenv('NOTIFY_EMAIL');

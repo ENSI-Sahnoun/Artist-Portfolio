@@ -61,16 +61,17 @@ try {
         ":visitation"   => $visitation,
         ":medium"       => $medium,
     ]);
+    $e = fn($s) => htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8');
     send_notification(
-        'New Testimonial — ' . $name,
+        'New Testimonial — ' . $e($name),
         "<h2>New Testimonial Submitted</h2>
-        <p><strong>Name:</strong> $name</p>
-        <p><strong>Email:</strong> $email</p>
-        <p><strong>Rating:</strong> $rating / 5</p>
-        <p><strong>Review:</strong> $review</p>
-        <p><strong>Location:</strong> $location</p>
-        <p><strong>Artwork Type:</strong> $artworkType</p>
-        <p><strong>Medium:</strong> $medium</p>"
+        <p><strong>Name:</strong> {$e($name)}</p>
+        <p><strong>Email:</strong> {$e($email)}</p>
+        <p><strong>Rating:</strong> {$e($rating)} / 5</p>
+        <p><strong>Review:</strong> {$e($review)}</p>
+        <p><strong>Location:</strong> {$e($location)}</p>
+        <p><strong>Artwork Type:</strong> {$e($artworkType)}</p>
+        <p><strong>Medium:</strong> {$e($medium)}</p>"
     );
     header("Location: testimonials.php?success=1");
     exit();
