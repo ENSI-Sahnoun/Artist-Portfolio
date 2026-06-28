@@ -70,13 +70,11 @@ try {
         foreach ($cart_items as $item) {
             $img   = $e($base_url . '/' . ltrim($item['image'] ?? '', '/'));
             $iname = $e($item['name'] ?? '');
-            $price = $e($item['price'] ?? '');
             $cart_html .= "
             <div style='display:flex;align-items:center;gap:12px;margin-bottom:12px;'>
                 <img src='{$img}' alt='{$iname}' style='width:80px;height:80px;object-fit:cover;border-radius:6px;'>
                 <div>
-                    <strong>{$iname}</strong><br>
-                    <span>TND {$price}</span>
+                    <strong>{$iname}</strong>
                 </div>
             </div>";
         }

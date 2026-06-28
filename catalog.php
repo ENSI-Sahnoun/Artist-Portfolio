@@ -630,7 +630,7 @@
                 <div>
                     <p class="modal__eyebrow" id="product-modal-category">Product</p>
                     <h2 class="modal__title" id="product-modal__title">Title</h2>
-                    <p class="modal__price" id="product-modal__price">TND 0</p>
+                    <p class="modal__price" id="product-modal__price">Price on inquiry</p>
                     <p class="modal__description" id="product-modal__description"></p>
                     <p class="modal__spec" id="product-modal__spec"></p>
                     <div class="modal__actions">
@@ -652,7 +652,7 @@
             <div class="cart-summary">
                 <div class="cart-summary__row">
                     <span>Subtotal</span>
-                    <span id="cart-subtotal">TND 0</span>
+                    <span id="cart-subtotal">Price on inquiry</span>
                 </div>
                 <div class="cart-summary__row">
                     <span>Shipping</span>
@@ -660,7 +660,7 @@
                 </div>
                 <div class="cart-summary__row cart-summary__total">
                     <span>Total</span>
-                    <span id="cart-total">TND 0</span>
+                    <span id="cart-total">Price on inquiry</span>
                 </div>
             </div>
             <div class="modal__actions">
@@ -709,7 +709,7 @@
                 <div class="checkout-summary">
                     <div>
                         <p class="checkout-summary__label">Order total</p>
-                        <p class="checkout-summary__value" id="checkout-total">TND 0</p>
+                        <p class="checkout-summary__value" id="checkout-total">Price on inquiry</p>
                     </div>
                     <p class="checkout-summary__note">Shipping and handling stay confirmed manually after inquiry.</p>
                 </div>
@@ -784,8 +784,8 @@
             cartCount.textContent = cart.length;
             if (cart.length === 0) {
                 cartItems.innerHTML = '<div class="empty-state">No pieces in the cart yet. Choose a work from Wood or Marble.</div>';
-                cartSubtotal.textContent = 'TND 0';
-                cartTotal.textContent = 'TND 0';
+                cartSubtotal.textContent = 'Price on inquiry';
+                cartTotal.textContent = 'Price on inquiry';
                 return;
             }
 
@@ -798,14 +798,14 @@
                         <p class="cart-item__meta">${item.category}</p>
                     </div>
                     <div class="cart-item__actions">
-                        <div class="cart-item__price">${formatPrice(item.price)}</div>
+                        <div class="cart-item__price">Price on inquiry</div>
                         <button class="small-button remove-button" type="button" data-remove-index="${index}">Remove</button>
                     </div>
                 </div>
             `).join('');
-            cartSubtotal.textContent = formatPrice(subtotal);
-            cartTotal.textContent = formatPrice(subtotal);
-            checkoutTotal.textContent = formatPrice(subtotal);
+            cartSubtotal.textContent = 'Price on inquiry';
+            cartTotal.textContent = 'Price on inquiry';
+            checkoutTotal.textContent = 'Price on inquiry';
         };
 
         if (cartPurchaseButton) {
@@ -903,7 +903,7 @@
             activeProductId = productId;
             productModalTitle.textContent = product.name;
             productModalCategory.textContent = product.category;
-            productModalPrice.textContent = formatPrice(product.price);
+            productModalPrice.textContent = 'Price on inquiry';
             productModalDescription.textContent = product.description;
             productModalSpec.textContent = product.spec;
             productModalImage.src = product.image;
