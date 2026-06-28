@@ -81,7 +81,6 @@
                                     <h3 class="product-card__name">Wood Work 1</h3>
                                     <p class="product-card__category">Wood / Walnut / 120 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,400</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -96,7 +95,6 @@
                                     <h3 class="product-card__name">Wood Work 2</h3>
                                     <p class="product-card__category">Wood / Oak / 90 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,600</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -111,7 +109,6 @@
                                     <h3 class="product-card__name">Wood Work 3</h3>
                                     <p class="product-card__category">Wood / Ash / 75 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 980</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -126,7 +123,6 @@
                                     <h3 class="product-card__name">Wood Work 4</h3>
                                     <p class="product-card__category">Wood / Cedar / 110 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,850</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -141,7 +137,6 @@
                                     <h3 class="product-card__name">Wood Work 5</h3>
                                     <p class="product-card__category">Wood / Pine / 85 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -156,7 +151,6 @@
                                     <h3 class="product-card__name">Wood Work 6</h3>
                                     <p class="product-card__category">Wood / Teak / 140 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -173,7 +167,6 @@
                                     <h3 class="product-card__name">Wood Work 7</h3>
                                     <p class="product-card__category">Wood / Maple / 115 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,100</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -188,7 +181,6 @@
                                     <h3 class="product-card__name">Wood Work 8</h3>
                                     <p class="product-card__category">Wood / Birch / 100 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,750</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -203,7 +195,6 @@
                                     <h3 class="product-card__name">Wood Work 9</h3>
                                     <p class="product-card__category">Wood / Cherry / 125 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,600</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -218,7 +209,6 @@
                                     <h3 class="product-card__name">Wood Work 10</h3>
                                     <p class="product-card__category">Wood / Ash / 95 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,400</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -233,7 +223,6 @@
                                     <h3 class="product-card__name">Wood Work 11</h3>
                                     <p class="product-card__category">Wood / Oak / 110 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,950</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -248,7 +237,6 @@
                                     <h3 class="product-card__name">Wood Work 12</h3>
                                     <p class="product-card__category">Wood / Walnut / 135 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,900</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -265,7 +253,6 @@
                                     <h3 class="product-card__name">Wood Work 13</h3>
                                     <p class="product-card__category">Wood / Cedar / 105 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,650</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -280,7 +267,6 @@
                                     <h3 class="product-card__name">Wood Work 14</h3>
                                     <p class="product-card__category">Wood / Pine / 120 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -295,7 +281,6 @@
                                     <h3 class="product-card__name">Wood Work 15</h3>
                                     <p class="product-card__category">Wood / Teak / 115 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,800</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -310,7 +295,6 @@
                                     <h3 class="product-card__name">Wood Work 16</h3>
                                     <p class="product-card__category">Wood / Maple / 130 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,450</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -325,7 +309,6 @@
                                     <h3 class="product-card__name">Wood Work 17</h3>
                                     <p class="product-card__category">Wood / Birch / 95 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,550</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -340,7 +323,6 @@
                                     <h3 class="product-card__name">Wood Work 18</h3>
                                     <p class="product-card__category">Wood / Cherry / 140 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,100</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -357,7 +339,6 @@
                                     <h3 class="product-card__name">Wood Work 19</h3>
                                     <p class="product-card__category">Wood / Mahogany / 120 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,700</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -372,7 +353,6 @@
                                     <h3 class="product-card__name">Wood Work 20</h3>
                                     <p class="product-card__category">Wood / Ash / 110 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,800</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -406,7 +386,6 @@
                                     <h3 class="product-card__name">Marble Work 1</h3>
                                     <p class="product-card__category">Marble / 120 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,800</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -421,7 +400,6 @@
                                     <h3 class="product-card__name">Marble Work 2</h3>
                                     <p class="product-card__category">Marble / 95 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,100</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -436,7 +414,6 @@
                                     <h3 class="product-card__name">Marble Work 3</h3>
                                     <p class="product-card__category">Marble / 110 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,900</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -451,7 +428,6 @@
                                     <h3 class="product-card__name">Marble Work 4</h3>
                                     <p class="product-card__category">Marble / 130 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 4,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -466,7 +442,6 @@
                                     <h3 class="product-card__name">Marble Work 5</h3>
                                     <p class="product-card__category">Marble / 80 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 1,800</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -481,7 +456,6 @@
                                     <h3 class="product-card__name">Marble Work 6</h3>
                                     <p class="product-card__category">Marble / 150 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 5,400</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -498,7 +472,6 @@
                                     <h3 class="product-card__name">Marble Work 7</h3>
                                     <p class="product-card__category">Marble / 115 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,500</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -513,7 +486,6 @@
                                     <h3 class="product-card__name">Marble Work 8</h3>
                                     <p class="product-card__category">Marble / 100 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -528,7 +500,6 @@
                                     <h3 class="product-card__name">Marble Work 9</h3>
                                     <p class="product-card__category">Marble / 125 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,800</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -544,7 +515,6 @@
                                     <h3 class="product-card__name">Marble Work 10</h3>
                                     <p class="product-card__category">Marble / 145 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 4,600</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -560,7 +530,6 @@
                                     <h3 class="product-card__name">Marble Work 11</h3>
                                     <p class="product-card__category">Marble / 90 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 2,600</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -576,7 +545,6 @@
                                     <h3 class="product-card__name">Marble Work 12</h3>
                                     <p class="product-card__category">Marble / 110 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,000</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -594,7 +562,6 @@
                                     <h3 class="product-card__name">Marble Work 13</h3>
                                     <p class="product-card__category">Marble / 135 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 3,900</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
@@ -610,7 +577,6 @@
                                     <h3 class="product-card__name">Marble Work 14</h3>
                                     <p class="product-card__category">Marble / 160 cm</p>
                                 </div>
-                                <div class="product-card__price">TND 6,200</div>
                             </div>
                             <div class="product-card__footer"><span class="product-card__note">Click for
                                     details</span><button class="small-button buy-button"
